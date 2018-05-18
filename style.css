@@ -6,11 +6,11 @@
 
 #header
 {
-	background: #ccc;
+	background-color: #93b1bb;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; text-align: center; color: #446671; }
 
 #navigation
 {

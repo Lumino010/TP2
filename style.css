@@ -10,7 +10,7 @@
 	padding: 20px;
 }
 
-#header h1 { margin: 0; text-align: center; color: #446671; }
+#header h1 { margin: 0; text-align: center; color: #446671; text-decoration: underline; }
 
 #navigation
 {
@@ -63,8 +63,9 @@
 #edito h2
 {
 	color: #000;
-	font-size: 160%;
+	font-size: 200%;
 	margin: 0 0 .5em;
+	
 }
 
 #news
@@ -84,6 +85,8 @@
 	background-clip: padding-box;
 	opacity: 0.83;
 }
+
+#news p::first-letter  {margin-left: 10px; font-weight: bold; font-size: 25px;}
 
 #footer
 {
